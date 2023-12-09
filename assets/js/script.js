@@ -2,6 +2,7 @@
 const recipes = [
     {
         recipeName: "Classic Pancakes",
+        imgUrl: "./assets/images/recipes/classic-pancakes.webp",
         servingsNumber: 1,
         ingredients: [
             "75g plain flour",
@@ -21,6 +22,7 @@ const recipes = [
     },
     {
         recipeName: "Vegetarian Lasagne",
+        imgUrl: "./assets/images/recipes/vegetarian-lasagne.webp",
         servingsNumber: 1,
         ingredients: [
             "1 red pepper/s, cut into large chunks",
@@ -43,6 +45,7 @@ const recipes = [
     },
     {
         recipeName: "Salmon & Asparagus",
+        imgUrl: "./assets/images/recipes/salmon-and-asparagus-gratin.webp",
         servingsNumber: 1,
         ingredients: [
             "10g dried breadcrumbs",
@@ -69,6 +72,7 @@ const recipes = [
     },
     {
         recipeName: "Oven-baked Pork Chops",
+        imgUrl: "./assets/images/recipes/oven-baked-pork-chops.webp",
         servingsNumber: 1,
         ingredients: [
             "500gr new potatoes, halved ",
@@ -90,6 +94,7 @@ const recipes = [
     },
     {
         recipeName: "Meatball & Tomato Soup",
+        imgUrl: "./assets/images/recipes/meatball-tomato-soup.webp",
         servingsNumber: 1,
         ingredients: [
             "½ tbsp rapeseed oil",
@@ -114,6 +119,7 @@ const recipes = [
     },
     {
         recipeName: "Mango Pudding",
+        imgUrl: "./assets/images/recipes/mango-pudding.webp",
         servingsNumber: 1,
         ingredients: [
             "1 large ripe mango/s",
@@ -129,6 +135,7 @@ const recipes = [
     },
     {
         recipeName: "Strawberry Mousse",
+        imgUrl: "./assets/images/recipes/strawberry-mousse.webp",
         servingsNumber: 1,
         ingredients: [
             "100g strawberries",
@@ -146,6 +153,7 @@ const recipes = [
     },
     {
         recipeName: "Easy Cheesecake",
+        imgUrl: "./assets/images/recipes/easy-cheesecake.webp",
         servingsNumber: 1,
         ingredients: [
             "2 shortbread biscuits",
@@ -166,6 +174,7 @@ const recipes = [
     },
     {
         recipeName: "Berry Yogurt",
+        imgUrl: "./assets/images/recipes/berry-yogurt-pots.webp",
         servingsNumber: 1,
         ingredients: [
             "100g frozen mixed berry",
@@ -180,6 +189,7 @@ const recipes = [
     },
     {
         recipeName: "Banana & Blueberry Muffins",
+        imgUrl: "./assets/images/recipes/banana-blueberry-muffin.webp",
         servingsNumber: 1,
         ingredients: [
             "150g self-raising flour",
