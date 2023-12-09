@@ -1,0 +1,21 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #e9e3b4;
+    color: #220901;
+    font-family: "Hind Guntur", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin: 15px;
+    flex: 1;
+}
