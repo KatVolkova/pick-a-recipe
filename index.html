@@ -35,6 +35,41 @@
     />
   </head>
   <body>
+    <!-- Header -->
+    <header>
+      <h1>Pick-a-Recipe</h1>
+    </header>
+<!-- Main -->
+<main>
+    <h2>Not sure what to cook today? Pick a recipe!</h2>
+<button id="pickRecipeButton" onclick="getRandomRecipe()">
+    Show Recipe
+</button>
+<div id="recipeCard">
+    <h3 id="recipeTitle"></h3>
+    <img id="recipeImage" />
+    <p id="numberOfServingsParagraph">
+        Number of Servings: <span id="numberServings"></span>
+    </p>
+
+<!-- Footer -->
+<footer class="footer">
+    <ul id="social-networks">
+        <li>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page(opens in a new tab)">Twitter</a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page(opens in a new tab)">Facebook</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page(opens in a new tab)">Instagram</a>
+        </li>
+    </ul>
+</footer>
+
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
