@@ -239,6 +239,8 @@ function getRandomRecipe() {
     const servingsNumber = document.getElementById("numberServings");
     servingsNumber.innerText = randomRecipes.servingsNumber;
     servingsParagraph.style.display = "block";
+    //Add ingredients button
+    addIngredientsBtn();
 }
 /**Add button to recipe card */
 function addIngredientsBtn() {
