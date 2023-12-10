@@ -242,7 +242,6 @@ function getRandomRecipe() {
     //Add ingredients button
     addIngredientsBtn();
     //  Add ingredients list
-
     const ingredientsUl = document.getElementById("ingredients");
     ingredientsUl.style.display = "none";
     ingredientsUl.textContent = "";
@@ -256,6 +255,18 @@ function getRandomRecipe() {
     }
     //Add instructions button
     addInstructionsBtn();
+    //Add instructions list
+    const instructionsOl = document.getElementById("instructions");
+    instructionsOl.style.display = "none";
+    instructionsOl.textContent = "";
+    const instructions = randomRecipes.instructions;
+    for (const instruction of instructions) {
+        console.log(instruction);
+        const instructionList = document.createElement("li");
+        instructionList.classList.add("instructionList");
+        instructionList.textContent = instruction;
+        instructionsOl.append(instructionList);
+    }
 }
 /**Add button to recipe card */
 function addIngredientsBtn() {
