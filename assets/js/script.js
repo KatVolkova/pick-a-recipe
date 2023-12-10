@@ -218,6 +218,12 @@ const recipes = [
     },
 ];
 
+// Hide number of servings paragraph
+const numberOfServingsParagraph = document.getElementById(
+    "numberOfServingsParagraph"
+);
+numberOfServingsParagraph.style.display = "none";
+
 /**Generate random recipe and display recipe details */
 function getRandomRecipe() {
     //Get random recipe according to the length of recipes array
