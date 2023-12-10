@@ -81,8 +81,16 @@ h1 {
     margin: 15px;
 }
 
+/* Radio buttons */
 
-
+#categorySelection {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#categorySelection label {
+    margin-right: 20px;
+}
 #servingsParagraph {
     text-align: center;
     margin: 0.313rem;
