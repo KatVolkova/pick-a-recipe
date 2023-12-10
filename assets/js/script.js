@@ -223,5 +223,7 @@ function getRandomRecipe() {
     //Get random recipe according to the length of recipes array
     const randomRecipes = recipes[Math.floor(Math.random() * recipes.length)];
     console.log(randomRecipes);
-
+    // Add recipe title to recipe card
+    const recipeName = document.getElementById("recipeTitle");
+    recipeName.innerText = randomRecipes.recipeName;
 }
