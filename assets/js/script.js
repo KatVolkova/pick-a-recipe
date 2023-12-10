@@ -235,5 +235,9 @@ function getRandomRecipe() {
     // Add recipe image to recipe card
     const recipeImage = document.getElementById("recipeImage");
     recipeImage.src = randomRecipes.imgUrl;
-   
+    // Add number of servings
+    const servingsNumber = document.getElementById("numberServings");
+    servingsNumber.innerText = randomRecipes.servingsNumber;
+    servingsParagraph.style.display = "block";
+
 }
