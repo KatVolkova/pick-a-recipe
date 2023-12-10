@@ -223,7 +223,8 @@ const servingsParagraph = document.getElementById(
     "servingsParagraph"
 );
 servingsParagraph.style.display = "none";
-
+// Declare variable to store selected catagory
+let selectedCategory = "meal";
 /**Generate random recipe and display recipe details */
 function getRandomRecipe() {
     //Get random recipe according to the length of recipes array
