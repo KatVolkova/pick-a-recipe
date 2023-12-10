@@ -226,4 +226,7 @@ function getRandomRecipe() {
     // Add recipe title to recipe card
     const recipeName = document.getElementById("recipeTitle");
     recipeName.innerText = randomRecipes.recipeName;
+    // Add recipe image to recipe card
+    const recipeImage = document.getElementById("recipeImage");
+    recipeImage.src = randomRecipes.imgUrl;
 }
