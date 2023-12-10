@@ -239,6 +239,16 @@ console.log(selectedCategory);
 
 /**Generate random recipe and display recipe details */
 function getRandomRecipe() {
+    // Create new array based on result of radio button selection
+    const categoryRecipes = recipes.filter(
+        (recipe) => recipe.category === selectedCategory
+    );
+    // Check if there are recipes for selected recipe category
+    if (categoryRecipes.length === 0) {
+        alert(`No recipes found for ${selectedCategory}.`);
+        return;
+    }
+    console.log(categoryRecipes);
     //Get random recipe according to the length of recipes array
     const randomRecipes = recipes[Math.floor(Math.random() * recipes.length)];
     console.log(randomRecipes);
