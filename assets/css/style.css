@@ -95,6 +95,7 @@ h1 {
 
 /* Recipe card */
 #recipeCard {
+    max-width: 46.13rem;
     padding: 0.625rem;
     margin: 1.25rem auto;
     background-color: rgb(249, 249, 246);
@@ -180,3 +181,11 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+/* Media query: large or landscape phones (558px and up) */
+@media screen and (min-width: 558px) {
+   /* recipe Image */
+#recipeImage {
+        width: 23.13rem;
+    }
+}
+
