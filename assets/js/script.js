@@ -240,10 +240,22 @@ function getRandomRecipe() {
     servingsNumber.innerText = randomRecipes.servingsNumber;
     servingsParagraph.style.display = "block";
 }
-// **Add button to recipe card 
+/**Add button to recipe card */
 function addIngredientsBtn() {
     const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
     recipeIngredientsBtn.textContent = "Show ingredients";
     recipeIngredientsBtn.addEventListener("click", showingredientsBtn);
 }
-
+/**Add visibility effect to show ingredients button */
+function showingredientsBtn() {
+    console.log("clicked");
+    const ingredientsUl = document.getElementById("ingredients");
+    const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
+    if (ingredientsUl.style.display === "none") {
+        ingredientsUl.style.display = "block";
+        recipeIngredientsBtn.textContent = "Hide ingredients";
+    } else {
+        ingredientsUl.style.display = "none";
+        recipeIngredientsBtn.textContent = "Show  ingredients";
+    }
+}
