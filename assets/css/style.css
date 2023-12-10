@@ -149,18 +149,21 @@ h1 {
     border: 2px solid #2a5039;
     color: #2a5039;
 }
+
 /* Ingredients list */
 .recipeList {
     text-align: left;
     margin-left: 1.5rem;
     font-size: 1.125rem;
 }
+
 /* Instructions list */
 .instructionList {
     text-align: left;
     margin-left: 24px;
     font-size: 16px;
 }
+
 /* Footer */
 footer {
     border-top: 1px solid #2a5039;
@@ -181,11 +184,20 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
 /* Media query: large or landscape phones (558px and up) */
 @media screen and (min-width: 558px) {
-   /* recipe Image */
-#recipeImage {
+
+    /* recipe Image */
+    #recipeImage {
         width: 23.13rem;
     }
 }
 
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #recipeCardButtons {
+        display: flex;
+        justify-content: space-around;
+    }
+}
