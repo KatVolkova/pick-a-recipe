@@ -241,6 +241,19 @@ function getRandomRecipe() {
     servingsParagraph.style.display = "block";
     //Add ingredients button
     addIngredientsBtn();
+    //  Add ingredients list
+
+    const ingredientsUl = document.getElementById("ingredients");
+    ingredientsUl.style.display = "none";
+    ingredientsUl.textContent = "";
+    const ingredients = randomRecipes.ingredients;
+    for (const ingredient of ingredients) {
+        console.log(ingredient);
+        const recipeList = document.createElement("li");
+        recipeList.classList.add("recipeList");
+        recipeList.textContent = ingredient;
+        ingredientsUl.append(recipeList);
+    }
 }
 /**Add button to recipe card */
 function addIngredientsBtn() {
