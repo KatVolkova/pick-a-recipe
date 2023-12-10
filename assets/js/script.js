@@ -254,6 +254,8 @@ function getRandomRecipe() {
         recipeList.textContent = ingredient;
         ingredientsUl.append(recipeList);
     }
+    //Add instructions button
+    addInstructionsBtn();
 }
 /**Add button to recipe card */
 function addIngredientsBtn() {
@@ -272,5 +274,24 @@ function showingredientsBtn() {
     } else {
         ingredientsUl.style.display = "none";
         recipeIngredientsBtn.textContent = "Show  ingredients";
+    }
+}
+/**Add button to recipe card */
+function addInstructionsBtn() {
+    const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
+    recipeInstructionsBtn.textContent = "Show Instructions";
+    recipeInstructionsBtn.addEventListener("click", showInstructionsBtn);
+}
+/**Add visibility effect to show instructions button */
+function showInstructionsBtn() {
+    console.log("clicked");
+    const instructionsOl = document.getElementById("instructions");
+    const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
+    if (instructionsOl.style.display === "none") {
+        instructionsOl.style.display = "block";
+        recipeInstructionsBtn.textContent = "Hide Instructions";
+    } else {
+        instructionsOl.style.display = "none";
+        recipeInstructionsBtn.textContent = "Show  Instructions";
     }
 }
