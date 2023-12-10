@@ -218,11 +218,11 @@ const recipes = [
     },
 ];
 
-// Hide number of servings paragraph
-const numberOfServingsParagraph = document.getElementById(
-    "numberOfServingsParagraph"
+// Hide number of servings paragraph until getRandomReicpe function called
+const servingsParagraph = document.getElementById(
+    "servingsParagraph"
 );
-numberOfServingsParagraph.style.display = "none";
+servingsParagraph.style.display = "none";
 
 /**Generate random recipe and display recipe details */
 function getRandomRecipe() {
@@ -235,4 +235,5 @@ function getRandomRecipe() {
     // Add recipe image to recipe card
     const recipeImage = document.getElementById("recipeImage");
     recipeImage.src = randomRecipes.imgUrl;
+   
 }
