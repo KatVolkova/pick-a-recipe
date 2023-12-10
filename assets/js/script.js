@@ -1,6 +1,7 @@
 // Declare recipe variable with recipe name, ingredients, instructions
 const recipes = [
     {
+        category: "meal",
         recipeName: "Classic Pancakes",
         imgUrl: "./assets/images/recipes/classic-pancakes.webp",
         servingsNumber: 1,
@@ -21,6 +22,7 @@ const recipes = [
         ],
     },
     {
+        category: "meal",
         recipeName: "Vegetarian Lasagne",
         imgUrl: "./assets/images/recipes/vegetarian-lasagne.webp",
         servingsNumber: 1,
@@ -43,7 +45,7 @@ const recipes = [
             "Bake for 45 mins until bubbling and golden.",
         ],
     },
-    {
+    {category: "meal",
         recipeName: "Salmon & Asparagus",
         imgUrl: "./assets/images/recipes/salmon-and-asparagus-gratin.webp",
         servingsNumber: 1,
@@ -71,6 +73,7 @@ const recipes = [
         ],
     },
     {
+        category: "meal",
         recipeName: "Oven-baked Pork Chops",
         imgUrl: "./assets/images/recipes/oven-baked-pork-chops.webp",
         servingsNumber: 1,
@@ -93,6 +96,7 @@ const recipes = [
         ],
     },
     {
+        category: "meal",
         recipeName: "Meatball & Tomato Soup",
         imgUrl: "./assets/images/recipes/meatball-tomato-soup.webp",
         servingsNumber: 1,
@@ -118,6 +122,7 @@ const recipes = [
         ],
     },
     {
+        category: "dessert",
         recipeName: "Mango Pudding",
         imgUrl: "./assets/images/recipes/mango-pudding.webp",
         servingsNumber: 1,
@@ -134,6 +139,7 @@ const recipes = [
         ],
     },
     {
+        category: "dessert",
         recipeName: "Strawberry Mousse",
         imgUrl: "./assets/images/recipes/strawberry-mousse.webp",
         servingsNumber: 1,
@@ -152,6 +158,7 @@ const recipes = [
         ],
     },
     {
+        category: "dessert",
         recipeName: "Easy Cheesecake",
         imgUrl: "./assets/images/recipes/easy-cheesecake.webp",
         servingsNumber: 1,
@@ -173,6 +180,7 @@ const recipes = [
         ],
     },
     {
+        category: "dessert",
         recipeName: "Berry Yogurt",
         imgUrl: "./assets/images/recipes/berry-yogurt-pots.webp",
         servingsNumber: 1,
@@ -188,6 +196,7 @@ const recipes = [
         ],
     },
     {
+        category: "dessert",
         recipeName: "Banana & Blueberry Muffins",
         imgUrl: "./assets/images/recipes/banana-blueberry-muffin.webp",
         servingsNumber: 1,
@@ -243,7 +252,7 @@ function getRandomRecipe() {
     const categoryRecipes = recipes.filter(
         (recipe) => recipe.category === selectedCategory
     );
-    // Check if there are recipes for selected recipe category
+    // Check if there are recipes for selected recipe
     if (categoryRecipes.length === 0) {
         alert(`No recipes found for ${selectedCategory}.`);
         return;
