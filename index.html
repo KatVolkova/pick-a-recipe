@@ -46,6 +46,19 @@
 <!-- Main -->
 <main>
     <h2 id="subheading">Not sure what to cook today? Pick a recipe!</h2>
+    <!-- Radio buttons for category selection -->
+    <h3 id="select-category">Select a category:</h3>
+    <div id="categorySelection">
+        <label for="meal">
+            <input type="radio" name="category" id="meal" value="meal" required />
+            Meal
+        </label>
+        <label for="dessert">
+            <input type="radio" name="category" id="dessert" value="dessert" required />
+            Dessert
+        </label>
+    </div>
+    <!-- Button to select a random recipe -->
 <button id="showRecipeButton" onclick="getRandomRecipe()">
     Show Recipe
 </button>
