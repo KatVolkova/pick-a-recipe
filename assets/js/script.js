@@ -217,4 +217,11 @@ const recipes = [
         ],
     },
 ];
-console.log(recipes);
+
+/**Generate random recipe and display recipe details */
+function getRandomRecipe() {
+    //Get random recipe according to the length of recipes array
+    const randomRecipes = recipes[Math.floor(Math.random() * recipes.length)];
+    console.log(randomRecipes);
+
+}
