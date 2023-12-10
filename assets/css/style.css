@@ -95,7 +95,7 @@ h1 {
 
 /* Recipe card */
 #recipeCard {
-    padding: 0.625erm;
+    padding: 0.625rem;
     margin: 1.25rem auto;
     background-color: rgb(249, 249, 246);
     border-radius: 0.38rem;
