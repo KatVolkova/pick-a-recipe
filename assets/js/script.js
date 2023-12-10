@@ -225,6 +225,18 @@ const servingsParagraph = document.getElementById(
 servingsParagraph.style.display = "none";
 // Declare variable to store selected catagory
 let selectedCategory = "meal";
+/** Extract value from selected radio button*/
+function getCategoryValue(event) {
+    selectedCategory = event.target.id;
+}
+// Iterate through selected inputs and add eventListener
+const categoryInputs = document
+    .querySelectorAll("input[name='category']")
+    .forEach((input) => {
+        input.addEventListener("change", getCategoryValue);
+    });
+console.log(selectedCategory);
+
 /**Generate random recipe and display recipe details */
 function getRandomRecipe() {
     //Get random recipe according to the length of recipes array
