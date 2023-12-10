@@ -110,7 +110,13 @@ h1 {
     font-weight: 600;
     letter-spacing: 0.1rem;
 }
-
+/* Recipe card image */
+#recipeImage {
+    width: 18.13rem;
+    display: block;
+    margin: auto;
+    border-radius: 0.38rem;
+}
 #servingsParagraph {
     text-align: center;
     margin: 0.313rem;
