@@ -101,5 +101,12 @@ To Deploy the site using GitHub Pages:
 #### How to Fork
 ## Testing  
 ### Solved Bugs
+
 ## Credits
 
+- Recipes have been taken from [BBC Goog Food](https://www.bbcgoodfood.com/)
+- Templates for a Logo and favicon have been taken and customised using [Canva](https://www.canva.com/)
+- Pictures have been from (detailed breakdown in Images section) [BBC Goog Food](https://www.bbcgoodfood.com/)
+- Fonts have been taken from [Google Fonts](https://fonts.google.com/)
+- Icons for the social networks links have been taken from [Font Awesome](https://fontawesome.com/)
+- Pictures have been re-sized and converted into webp format using [Pixlr](https://pixlr.com/)
