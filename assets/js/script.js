@@ -303,7 +303,7 @@ function getRandomRecipe() {
 /**Add button to recipe card */
 function addIngredientsBtn() {
     const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
-    recipeIngredientsBtn.textContent = "Show ingredients";
+    recipeIngredientsBtn.textContent = "Show Ingredients";
     recipeIngredientsBtn.addEventListener("click", showingredientsBtn);
 }
 /**Add visibility effect to show ingredients button */
