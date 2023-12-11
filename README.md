@@ -42,6 +42,15 @@ Colours used:
 The colours above create the right contrast and contribute to the site's readability. 
 
 ### Typography
+Google fonts have been used for this website.
+
+- Hind Guntur font style has been used as the general font.
+  ![Hind Guntur](/assets/images/readme/google-fonts-hind-guntur.webp)
+- Vollkorn Text font style has been used for the heading.
+  ![Vollkorn](/assets/images/readme/google-fonts-vollkorn.webp)
+- Puritan has a font style used for all headings apart from the amin h1 heading.
+  ![Puritan](/assets/images/readme/google-fonts-puritan.webp)
+
 ### Images
 ## Technologies Used
 ### Languages Used
