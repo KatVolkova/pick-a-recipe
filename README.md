@@ -52,6 +52,20 @@ Google fonts have been used for this website.
   ![Puritan](/assets/images/readme/google-fonts-puritan.webp)
 
 ### Images
+
+Pictures have been taken from [BBC Goog Food](https://www.bbcgoodfood.com/):
+
+- [Mango pudding](https://www.bbcgoodfood.com/recipes/quick-mango-pudding)
+- [Strawberry mousse](https://www.bbcgoodfood.com/recipes/strawberry-marshmallow-mousse)
+- [Easy cheesecake](https://www.bbcgoodfood.com/recipes/easy-cheesecake)
+- [Berry yougurt](https://www.bbcgoodfood.com/berry-yogurt-pots)
+- [Banana and blueberry muffins](https://www.bbcgoodfood.com/banana-blueberry-muffins)
+- [Classic pancakes](https://www.bbcgoodfood.com/recipes/classic-pancakes)
+- [Vegetarian lasagne](https://www.bbcgoodfood.com/recipes/easy-vegetable-lasagne)
+- [Salmon and asparagus](https://www.bbcgoodfood.com/recipes/salmon-asparagus-one-pot-gratin)
+- [Oven-baked pork chops](https://www.bbcgoodfood.com/recipes/oven-baked-pork-chops)
+- [Meatball and tomato soup](https://www.bbcgoodfood.com/recipes/meatball-tomato-soup)
+
 ## Technologies Used
 ### Languages Used
 ### Programs/Applications/Software Used
