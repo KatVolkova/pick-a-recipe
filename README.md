@@ -26,10 +26,17 @@
 ### General
 
 ### Header
+![Header](/assets/images/readme/features/header.webp)
+Header includes the project name and logo:
 
 ### Main Content
 
 ### Footer
+
+![Footer](/assets/images/readme/features/footer.webp)
+The footer section features:
+
+- social network links to ensure that users can get news and updates about the web-site
 
 ## Design
 
