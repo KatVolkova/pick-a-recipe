@@ -29,6 +29,18 @@
 ## Design
 ## Wireframes
 ### Colour Scheme
+Colours used:
+
+- background and buttons colour `#e9e3b4` 
+
+- Buttons colour and font colour for header and footer `#2a5039`
+  
+- font colour `#220901`
+
+- recipe card colour `#F9F9F6`
+  
+The colours above create the right contrast and contribute to the site's readability. 
+
 ### Typography
 ### Images
 ## Technologies Used
