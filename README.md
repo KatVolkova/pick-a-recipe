@@ -21,18 +21,25 @@
   - [Testing](#testing)
     - [Solved Bugs](#solved-bugs)
   - [Credits](#credits)
-- - -
 ## Features
+
 ### General
+
 ### Header
+
 ### Main Content
+
 ### Footer
+
 ## Design
+
 ## Wireframes
+
 ### Colour Scheme
+
 Colours used:
 
-- background and buttons colour `#e9e3b4` 
+- background and buttons colour `#e9e3b4`
 
 - Buttons colour and font colour for header and footer `#2a5039`
   
@@ -43,6 +50,7 @@ Colours used:
 The colours above create the right contrast and contribute to the site's readability. 
 
 ### Typography
+
 Google fonts have been used for this website.
 
 - Hind Guntur font style has been used as the general font.
