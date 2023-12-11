@@ -51,31 +51,44 @@ When button is clicked it shows the following features:
 - Show instructions button
 The website is fully responsive.
 
-
-
-
 ### Header
+
 ![Header](/assets/images/readme/features/header.webp)
 Header includes the project name and logo:
 
 ### Main Content
 
 #### Radio Buttons Input
+
 ![Radio Buttons Input](/assets/images/readme/features/radio-buttons.webp)
+Two radio buttons represent two categories that a user can select: "Meal" and "Dessert". Depending on the option users will be presented with either a range of dinner recipes or dessert recipes.
 
 #### Show recipe button
+
 ![Show recipe button](/assets/images/readme/features/show-recipe-button.webp)
+A "Show Recipe" button is used to generate a random recipe either from meal or from dessert category.
 
 #### Recipe Card
 
+When a "Show recipe" button is clicked a recipe card comes up. The recipe card includes the recipe title, recipe image, number of servings, show ingredients and instructions buttons.
+
 #### Recipe Image
+
 ![Recipe Image](/assets/images/readme/features/recipe-image.webp)
+There are two sets of images: one for meals option and the other is for desserts.
+
 #### Show Ingredients button
+
 ![Show ingredients button](/assets/images/readme/features/show-ingredients-button.webp)
+The "Show Ingredients" button displays a list of ingredients for a particular recipe. When the list is displayd the text on the button changes to "Hide Ingredients"
 ![Ingredients list](/assets/images/readme/features/ingredients-list.webp)
+
 #### Show Instructions button
+
 ![Show instructions button](/assets/images/readme/features/show-instructions-button.webp)
-![Ingredients list](/assets/images/readme/features/instructions-list.webp)
+The "Show Instructions" button displays a list of instructions for a particular recipe. When the list is displayd the text on the button changes to "Hide Instructions"
+![Instructions list](/assets/images/readme/features/instructions-list.webp)
+
 ### Footer
 
 ![Footer](/assets/images/readme/features/footer.webp)
