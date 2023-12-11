@@ -9,6 +9,12 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
     - [General](#general)
     - [Header](#header)
     - [Main Content](#main-content)
+      - [Radio Buttons Input](#radio-buttons-input)
+      - [Show recipe button](#show-recipe-button)
+      - [Recipe Card](#recipe-card)
+      - [Recipe Image](#recipe-image)
+      - [Show Ingredients button](#show-ingredients-button)
+      - [Show Instructions button](#show-instructions-button)
     - [Footer](#footer)
   - [Design](#design)
   - [Wireframes](#wireframes)
@@ -27,12 +33,49 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
 
 ### General
 
+The Pick a Recipe website consists of one page and includes the following features:
+
+- Favicon in the browser tab:
+- Header
+- Radio buttons input
+- Show recipe button
+- Footer
+
+When button is clicked it shows the following features:
+
+- Card containing a recipe
+- Recipe title
+- Recipe images
+- Number of servings
+- Show Ingredients button
+- Show instructions button
+The website is fully responsive.
+
+
+
+
 ### Header
 ![Header](/assets/images/readme/features/header.webp)
 Header includes the project name and logo:
 
 ### Main Content
 
+#### Radio Buttons Input
+![Radio Buttons Input](/assets/images/readme/features/radio-buttons.webp)
+
+#### Show recipe button
+![Show recipe button](/assets/images/readme/features/show-recipe-button.webp)
+
+#### Recipe Card
+
+#### Recipe Image
+![Recipe Image](/assets/images/readme/features/recipe-image.webp)
+#### Show Ingredients button
+![Show ingredients button](/assets/images/readme/features/show-ingredients-button.webp)
+![Ingredients list](/assets/images/readme/features/ingredients-list.webp)
+#### Show Instructions button
+![Show instructions button](/assets/images/readme/features/show-instructions-button.webp)
+![Ingredients list](/assets/images/readme/features/instructions-list.webp)
 ### Footer
 
 ![Footer](/assets/images/readme/features/footer.webp)
