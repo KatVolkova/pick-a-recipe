@@ -98,9 +98,6 @@ The footer section features:
 
 ## Design
 
-
-
-
 ## Wireframes
 
 Balsamiq software has been used to create wireframes for both desktop and mobile phones.
@@ -179,7 +176,13 @@ To Deploy the site using GitHub Pages:
 6. The site has now been deployed. Please note that this process may take a few minutes before the site goes live.
 
 #### How to Fork
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [KatVolkova/Pick-a -recipe](https://github.com/KatVolkova/pick-a-recipe).
+3. Click the Fork button in the top right corner.
+
 ## Testing  
+
 ### Solved Bugs
 
 ## Credits
