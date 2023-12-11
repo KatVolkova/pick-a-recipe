@@ -67,8 +67,24 @@ Pictures have been taken from [BBC Goog Food](https://www.bbcgoodfood.com/):
 - [Meatball and tomato soup](https://www.bbcgoodfood.com/recipes/meatball-tomato-soup)
 
 ## Technologies Used
+
 ### Languages Used
+
+HTML, CSS, JavaScript
+
 ### Programs/Applications/Software Used
+
+- [Git](https://git-scm.com/) - For version control.
+- [Github](https://github.com/) - To save and store the files for the website.
+- [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+- [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features and solve issues with responsiveness and styling.
+- [Canva.com](https://canva.com/) To create and customise favicon and logo
+- [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+- [Pixlr](https://pixlr.com/) To re-size and convert pictures into webp format
+- [Grammarly](https://app.grammarly.com/ ) - has been used for spell-checking
+- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+- Codeanywhere has been used as an IDE
+  
 ## Deployment
 ## Testing  
 ### Solved Bugs
