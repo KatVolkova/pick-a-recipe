@@ -17,6 +17,7 @@
     - [Languages Used](#languages-used)
     - [Programs/Applications/Software Used](#programsapplicationssoftware-used)
   - [Deployment](#deployment)
+      - [How to Fork](#how-to-fork)
   - [Testing](#testing)
     - [Solved Bugs](#solved-bugs)
   - [Credits](#credits)
@@ -86,6 +87,18 @@ HTML, CSS, JavaScript
 - Codeanywhere has been used as an IDE
   
 ## Deployment
+
+The site is deployed using GitHub Pages - [Pick a recipe](https://katvolkova.github.io/pick-a-recipe/).
+To Deploy the site using GitHub Pages:
+
+1. Login (or sign up) to Github.
+2. Go to the repository for this project, [KatVolkova/Pick-a-recipe](https://github.com/KatVolkova/pick-a-recipe).
+3. Click the settings button.
+4. Select pages in the left-hand navigation menu.
+5. From the source dropdown, select the main branch and press save.
+6. The site has now been deployed. Please note that this process may take a few minutes before the site goes live.
+
+#### How to Fork
 ## Testing  
 ### Solved Bugs
 ## Credits
