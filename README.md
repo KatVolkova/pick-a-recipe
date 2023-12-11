@@ -1,4 +1,6 @@
 # Pick a Recipe
+![Pick a Recipe website shown on a variety of screen sizes](/assets/images/readme/pick-a-recipe.jpg)
+Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-recipe)
 ## Table of Contents
   
 - [Pick a Recipe](#pick-a-recipe)
