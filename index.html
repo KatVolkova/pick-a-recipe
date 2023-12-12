@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta Tags for Search Engine Optimisation -->
-    <meta name="description"
-        content="Pick a recipe: quick and simple recipes. Pick a recipe for those who are not sure what to cook. Cooking recipe website that offers random recipes . Pick a recipe, a nice meal or delicious dessert.">
-    <meta name="keywords"
-        content="recipe,  recipes, quick recipes, simple recipes, random recipes, cooking, meals, dessert, pick recipe, choose recipe">
+    <meta
+      name="description"
+      content="Pick a recipe: quick and simple recipes. Pick a recipe for those who are not sure what to cook. Cooking recipe website that offers random recipes . Pick a recipe, a nice meal or delicious dessert."
+    />
+    <meta
+      name="keywords"
+      content="recipe,  recipes, quick recipes, simple recipes, random recipes, cooking, meals, dessert, pick recipe, choose recipe"
+    />
     <!-- Title -->
     <title>Pick a Recipe</title>
     <!-- Favicon -->
@@ -39,75 +43,109 @@
       rel="stylesheet"
     />
     <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/b54aa23b76.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/b54aa23b76.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Header -->
     <header id="header">
-        <img id="logo" src="./assets/images/logo.png" alt="Logo" />
+      <img id="logo" src="./assets/images/logo.png" alt="Logo" />
       <h1 id="main-heading">Pick-a-Recipe</h1>
     </header>
-<!-- Main -->
-<main>
-    <h2 id="subheading">Not sure what to cook today? Pick a recipe!</h2>
-    <!-- Radio buttons for category selection -->
-    <h3 id="select-category">Select a category:</h3>
-    <div id="categorySelection">
+    <!-- Main -->
+    <main>
+      <h2 id="subheading">Not sure what to cook today? Pick a recipe!</h2>
+      <!-- Radio buttons for category selection -->
+      <h3 id="select-category">Select a category:</h3>
+      <div id="categorySelection">
         <label for="meal">
-            <input type="radio" name="category" id="meal" value="meal" required checked/>
-            Meal
+          <input
+            type="radio"
+            name="category"
+            id="meal"
+            value="meal"
+            required
+            checked
+          />
+          Meal
         </label>
         <label for="dessert">
-            <input type="radio" name="category" id="dessert" value="dessert" required />
-            Dessert
+          <input
+            type="radio"
+            name="category"
+            id="dessert"
+            value="dessert"
+            required
+          />
+          Dessert
         </label>
-    </div>
-    <!-- Button to select a random recipe -->
-<button id="showRecipeButton" onclick="getRandomRecipe()">
-    Show Recipe
-</button>
-<!-- Recipe card -->
-<div id="recipeCard">
-    <!-- Recipe title -->
-    <h3 id="recipeTitle">Recipe title</h3>
-    <!-- Recipe Image -->
-    <img id="recipeImage" src="./assets/images/recipes/recipe-image.webp" alt="Recipe image"/>
-    <!-- Number of servings -->
-    <p id="servingsParagraph">
-        Number of Servings: <span id="numberServings"></span>
-    </p>
-    <!-- Ingredients list button -->
-    <div id="recipeCardButtons">
-    <div id="ingredientsList">
-        <button id="showIngredientsBtn"></button>
-        <ul id="ingredients"></ul>
-    </div>
-    <!-- Instruction list button -->
-    <div id="instructionsList">
-        <button id="showInstructionsBtn"></button>
-        <ol id="instructions"></ol>
-    </div>
-    </div>
-    </div>
-</main>
-<!-- Footer -->
-<footer class="footer">
-    <ul id="social-networks">
+      </div>
+      <!-- Button to select a random recipe -->
+      <button id="showRecipeButton" onclick="getRandomRecipe()">
+        Show Recipe
+      </button>
+      <!-- Recipe card -->
+      <div id="recipeCard">
+        <!-- Recipe title -->
+        <h3 id="recipeTitle">Recipe title</h3>
+        <!-- Recipe Image -->
+        <img
+          id="recipeImage"
+          src="./assets/images/recipes/classic-pancakes.webp"
+          alt="Recipe image"
+        />
+        <!-- Number of servings -->
+        <p id="servingsParagraph">
+          Number of Servings: <span id="numberServings"></span>
+        </p>
+        <!-- Ingredients list button -->
+        <div id="recipeCardButtons">
+          <div id="ingredientsList">
+            <button id="showIngredientsBtn"></button>
+            <ul id="ingredients"></ul>
+          </div>
+          <!-- Instruction list button -->
+          <div id="instructionsList">
+            <button id="showInstructionsBtn"></button>
+            <ol id="instructions"></ol>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <ul id="social-networks">
         <li>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page(opens in a new tab)"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
         </li>
         <li>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page(opens in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
         </li>
         <li>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page(opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page(opens in a new tab)"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
         </li>
-    </ul>
-</footer>
+      </ul>
+    </footer>
 
     <script src="./assets/js/script.js"></script>
   </body>
