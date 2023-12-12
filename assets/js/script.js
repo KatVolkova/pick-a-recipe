@@ -231,7 +231,7 @@ const recipes = [
 
 // Hide recipe card until show recipe button is clicked
 const recipeCard = document.getElementById("recipeCard");
-recipeCard.style.display = "none"
+recipeCard.style.display = "none";
 // Declare variable to store selected catagory
 let selectedCategory = "meal";
 /** Extract value from selected radio button*/
@@ -249,7 +249,7 @@ console.log(selectedCategory);
 /**Generate random recipe and display recipe details */
 function getRandomRecipe() {
     // Add back recipe card visibility
-    recipeCard.style.display = "block"
+    recipeCard.style.display = "block";
     // Create new array based on result of radio button selection
     const categoryRecipes = recipes.filter(
         (recipe) => recipe.category === selectedCategory
