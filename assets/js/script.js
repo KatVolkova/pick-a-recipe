@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 // Declare recipe variable with recipe name, ingredients, instructions
 const recipes = [
     {
