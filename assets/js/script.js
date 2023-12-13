@@ -239,7 +239,6 @@ const categoryInputs = document
     .forEach((input) => {
         input.addEventListener("change", getCategoryValue);
     });
-console.log(selectedCategory);
 // **Add list element to recipe card */
 function addListEL(listId, lists) {
     const listEl = document.getElementById(listId);
@@ -266,10 +265,8 @@ function getRandomRecipe() {
         alert(`No recipes found for ${selectedCategory}.`);
         return;
     }
-    console.log(categoryRecipes);
     //Get random recipe according to the length of categoryRecipes array
     const randomRecipes = categoryRecipes[Math.floor(Math.random() * categoryRecipes.length)];
-    console.log(randomRecipes);
     // Add recipe title to recipe card
     const recipeName = document.getElementById("recipeTitle");
     recipeName.innerText = randomRecipes.recipeName;
@@ -293,7 +290,6 @@ function addIngredientsBtn() {
 }
 /**Add visibility effect to show ingredients button */
 function showingredientsBtn() {
-    console.log("clicked");
     const ingredientsUl = document.getElementById("ingredients");
     const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
     if (ingredientsUl.style.display === "none") {
@@ -312,7 +308,6 @@ function addInstructionsBtn() {
 }
 /**Add visibility effect to show instructions button */
 function showInstructionsBtn() {
-    console.log("clicked");
     const instructionsOl = document.getElementById("instructions");
     const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
     if (instructionsOl.style.display === "none") {
