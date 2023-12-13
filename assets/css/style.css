@@ -150,18 +150,23 @@ h1 {
     color: #2a5039;
 }
 
+#ingredients,
+#instructions {
+    margin-top: 1.2rem;
+}
+
 /* Ingredients list */
-.recipeList {
+.ingredientsList {
     text-align: left;
     margin-left: 1.5rem;
     font-size: 1.125rem;
 }
 
 /* Instructions list */
-.instructionList {
+.instructionsList {
     text-align: left;
-    margin-left: 24px;
-    font-size: 16px;
+    margin-left: 1.5rem;
+    font-size: 1rem;
 }
 
 /* Footer */
