@@ -28,6 +28,8 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
   - [Deployment](#deployment)
       - [How to Fork](#how-to-fork)
   - [Testing](#testing)
+    - [Automated testing](#automated-testing)
+    - [Manual testing](#manual-testing)
     - [Solved Bugs](#solved-bugs)
   - [Credits](#credits)
 ## Features
@@ -203,6 +205,10 @@ To Deploy the site using GitHub Pages:
 3. Click the Fork button in the top right corner.
 
 ## Testing
+
+### Automated testing
+
+### Manual testing
 
 | Feature | Expected Outcome | Testing Peformed | Result |
 | --- | --- | --- |  --- |
