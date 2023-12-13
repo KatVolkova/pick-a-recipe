@@ -236,6 +236,11 @@ Validator testing has been carried out using the following:
 
 ## Credits
 
+- How to iterate through an array and create an unordered/ordered  list [Stackoverflow](https://stackoverflow.com/questions/46141450/create-li-from-loeop-through-array-and-display-to-html-as-a-list
+)
+- How to get radio button value [Stackoverflow](https://stackoverflow.com/questions/8838648/onchange-event-handler-for-radio-button-input-type-radio-doesnt-work-as-one
+)
+- How to use the filter method to create separate arrays for meal and dessert categories[JavaScript Filter() Method Explained with 5 exercises 2022](https://www.youtube.com/watch?v=7uFHki-EK6g)
 - Recipes have been taken from [BBC Goog Food](https://www.bbcgoodfood.com/)
 - Templates for a Logo and favicon have been taken and customised using [Canva](https://www.canva.com/)
 - Pictures have been from (detailed breakdown in Images section) [BBC Goog Food](https://www.bbcgoodfood.com/)
