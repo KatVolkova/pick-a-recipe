@@ -5,7 +5,6 @@ const recipes = [
         category: "meal",
         recipeName: "Classic Pancakes",
         imgUrl: "./assets/images/recipes/classic-pancakes.webp",
-        servingsNumber: 1,
         ingredients: [
             "75g plain flour",
             "1 large egg/s",
@@ -26,7 +25,6 @@ const recipes = [
         category: "meal",
         recipeName: "Vegetarian Lasagne",
         imgUrl: "./assets/images/recipes/vegetarian-lasagne.webp",
-        servingsNumber: 1,
         ingredients: [
             "1 red pepper/s, cut into large chunks",
             "1 aubergine/s, cut into ½ cm thick slices",
@@ -50,7 +48,6 @@ const recipes = [
         category: "meal",
         recipeName: "Salmon & Asparagus",
         imgUrl: "./assets/images/recipes/salmon-and-asparagus-gratin.webp",
-        servingsNumber: 1,
         ingredients: [
             "10g dried breadcrumbs",
             "50g parmesan",
@@ -78,7 +75,6 @@ const recipes = [
         category: "meal",
         recipeName: "Oven-baked Pork Chops",
         imgUrl: "./assets/images/recipes/oven-baked-pork-chops.webp",
-        servingsNumber: 1,
         ingredients: [
             "500gr new potatoes, halved ",
             "1 tbsp olive oil",
@@ -101,7 +97,6 @@ const recipes = [
         category: "meal",
         recipeName: "Meatball & Tomato Soup",
         imgUrl: "./assets/images/recipes/meatball-tomato-soup.webp",
-        servingsNumber: 1,
         ingredients: [
             "½ tbsp rapeseed oil",
             "1 onion/s, finely chopped",
@@ -127,7 +122,6 @@ const recipes = [
         category: "dessert",
         recipeName: "Mango Pudding",
         imgUrl: "./assets/images/recipes/mango-pudding.webp",
-        servingsNumber: 1,
         ingredients: [
             "1 large ripe mango/s",
             "2 scoops vanilla ice cream",
@@ -144,7 +138,6 @@ const recipes = [
         category: "dessert",
         recipeName: "Strawberry Mousse",
         imgUrl: "./assets/images/recipes/strawberry-mousse.webp",
-        servingsNumber: 1,
         ingredients: [
             "100g strawberries",
             "50g caster sugar",
@@ -163,7 +156,6 @@ const recipes = [
         category: "dessert",
         recipeName: "Easy Cheesecake",
         imgUrl: "./assets/images/recipes/easy-cheesecake.webp",
-        servingsNumber: 1,
         ingredients: [
             "2 shortbread biscuits",
             "100g tub soft cheese",
@@ -185,7 +177,6 @@ const recipes = [
         category: "dessert",
         recipeName: "Berry Yogurt",
         imgUrl: "./assets/images/recipes/berry-yogurt-pots.webp",
-        servingsNumber: 1,
         ingredients: [
             "100g frozen mixed berry",
             "100g Arla Protein Strawberry yogurt",
@@ -201,7 +192,6 @@ const recipes = [
         category: "dessert",
         recipeName: "Banana & Blueberry Muffins",
         imgUrl: "./assets/images/recipes/banana-blueberry-muffin.webp",
-        servingsNumber: 1,
         ingredients: [
             "150g self-raising flour",
             "0.5 tsp bicarbonate of soda",
@@ -269,9 +259,6 @@ function getRandomRecipe() {
     // Add recipe image to recipe card
     const recipeImage = document.getElementById("recipeImage");
     recipeImage.src = randomRecipes.imgUrl;
-    // Add number of servings
-    const servingsNumber = document.getElementById("numberServings");
-    servingsNumber.innerText = randomRecipes.servingsNumber;
     //Add ingredients button
     addIngredientsBtn();
     //  Add ingredients list
