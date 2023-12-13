@@ -37,7 +37,9 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
 The Pick a Recipe website consists of one page and includes the following features:
 
 - Favicon in the browser tab:
+  
 ![Favicon](/assets/images/readme/features/favicon.webp)
+
 - Header
 - Radio buttons input
 - Show recipe button
@@ -59,6 +61,7 @@ The website is fully responsive: the content can be viewed on a variety of scree
 ### Header
 
 ![Header](/assets/images/readme/features/header.webp)
+
 Header includes the project name and logo.
 
 ### Main Content
@@ -73,39 +76,42 @@ Two radio buttons represent two categories that a user can select: "Meal" and "D
 
 ![Show recipe button](/assets/images/readme/features/show-recipe-button.webp)
 
----
 A "Show Recipe" button is used to generate a random recipe either from meal or from dessert category.
 
 #### Recipe Card
 
 ![Recipe card desktop](/assets/images/readme/features/recipe-card-desktop.webp)
-![Recipe card mobile](/assets/images/readme/features/recipe-card-mobile.webp)
 
----
+![Recipe card mobile](/assets/images/readme/features/recipe-card-mobile.webp)
 
 When a "Show recipe" button is clicked a recipe card comes up. The recipe card includes the recipe title, recipe image, number of servings, show ingredients and instructions buttons. There are five recipes for a meal category and the same number for dessert category. Every time a "Show recipe" button is clicked a random card is displayed.
 
 #### Recipe Image
 
 ![Recipe Image meals](/assets/images/readme/features/recipe-images-meals.webp)
-![Recipe Image desserts](/assets/images/readme/features/recipe-images-desserts.webp)
 
----
+![Recipe Image desserts](/assets/images/readme/features/recipe-images-desserts.webp)
 
 Each recipe card has a corresponding image. There are two sets of images: one for meals option and the other is for desserts. There are ten recipes in total, five for each category.
 
 #### Show Ingredients and Instructions buttons
 
-![Show ingredients and instructions buttons](/assets/images/readme/features/recipe-card-buttons-desktop.webp)
-![Show ingredients and instructions buttons](/assets/images/readme/features/recipe-card-buttons-desktop.webp)
+![Show ingredients and instructions buttons desktop](/assets/images/readme/features/recipe-card-buttons-desktop.webp)
+
+![Show ingredients and instructions buttons mobile](/assets/images/readme/features/recipe-card-buttons-mobile.webp)
 
 The "Show Ingredients" button displays a list of ingredients for a particular recipe. The "Show Instructions" button displays a list of instructions for a particular recipe. A user can choose to either click one of the buttons to display ingredients or instructions only or click both buttons and see the lists either side by side in desktop version or one underneath the other for mobile screens.
+
 ![Ingredients list](/assets/images/readme/features/ingredients-list.webp)
+
 ![Instructions list](/assets/images/readme/features/instructions-list.webp)
+
 ![Ingredients list](/assets/images/readme/features/recipe-card-lists-desktop.webp)
+
 ![Instructions list](/assets/images/readme/features/recipe-card-lists-mobile.webp)
 
- When the list is displayd the text on the button changes to "Hide Ingredients"/"Hide instructions".
+When the list is displayd the text on the button changes to "Hide Ingredients"/"Hide instructions".
+
 ![Hide instructions and ingredients buttons](/assets/images/readme/features/hide-ingredients-instructions-buttons.webp)
 
 ### Footer
