@@ -146,11 +146,11 @@ The colours above create the right contrast and contribute to the site's readabi
 Google fonts have been used for this website.
 
 - Hind Guntur font style has been used as the general font.
-  ![Hind Guntur](/assets/images/readme/typography/google-fonts-hind-guntur.webp)
-- Vollkorn Text font style has been used for the heading.
-  ![Vollkorn](/assets/images/readme/typography/google-fonts-vollkorn.webp)
-- Puritan has a font style used for all headings apart from the amin h1 heading.
-  ![Puritan](/assets/images/readme/typography/google-fonts-puritan.webp)
+  ![Hind Guntur](/assets/images/readme/typography/hind-guntur-googlefonts.webp)
+- Vollkorn  font style has been used for the heading.
+  ![Vollkorn](/assets/images/readme/typography/vollkorn-googlefonts.webp)
+- Puritan font style used for all headings apart from the main h1 heading.
+  ![Puritan](/assets/images/readme/typography/puritan-googlefonts.webp)
 
 ### Images
 
