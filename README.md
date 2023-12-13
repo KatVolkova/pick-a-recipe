@@ -17,6 +17,7 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
       - [Recipe Image](#recipe-image)
       - [Show Ingredients and Instructions buttons](#show-ingredients-and-instructions-buttons)
     - [Footer](#footer)
+      - [Future Implementations](#future-implementations)
   - [Design](#design)
   - [Wireframes](#wireframes)
     - [Colour Scheme](#colour-scheme)
@@ -117,7 +118,12 @@ When the list is displayd the text on the button changes to "Hide Ingredients"/"
 ![Footer](/assets/images/readme/features/footer.webp)
 The footer section features:
 
-- social network links to ensure that users can get news and updates about the web-site. Each icon opens a link in a new tab. 
+- social network links to ensure that users can get news and updates about the web-site. Each icon opens a link in a new tab.
+
+#### Future Implementations
+
+1. As the number of recipes generated is limited I would add API to increase and adjust the recipes array to increase the variety of options
+2. I would add a number of servings input so a user could specify the number of servings and the ingredients list would automatically be updated to reflect the required amount of ingredients
 
 ## Design
 
