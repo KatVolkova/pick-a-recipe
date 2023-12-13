@@ -314,10 +314,10 @@ function showingredientsBtn() {
     const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
     if (ingredientsUl.style.display === "none") {
         ingredientsUl.style.display = "block";
-        recipeIngredientsBtn.textContent = "Hide ingredients";
+        recipeIngredientsBtn.textContent = "Hide Ingredients";
     } else {
         ingredientsUl.style.display = "none";
-        recipeIngredientsBtn.textContent = "Show  ingredients";
+        recipeIngredientsBtn.textContent = "Show  Ingredients";
     }
 }
 /**Add button to recipe card */
