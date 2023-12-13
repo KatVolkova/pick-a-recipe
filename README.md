@@ -202,7 +202,17 @@ To Deploy the site using GitHub Pages:
 2. Go to the repository for this project, [KatVolkova/Pick-a -recipe](https://github.com/KatVolkova/pick-a-recipe).
 3. Click the Fork button in the top right corner.
 
-## Testing  
+## Testing
+
+| Feature | Expected Outcome | Testing Peformed | Result |
+| --- | --- | --- |  --- |
+| Radio Buttons |  | | |
+| Show Recipe Button | |  | |
+| Recipe Card |  |  | |
+| Images | | | |
+| Show Ingredients Button | |  | |
+| Show Instructions Button |  |  | |
+| Social Networks Links | | | |
 
 ### Solved Bugs
 
