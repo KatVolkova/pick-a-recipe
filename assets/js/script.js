@@ -222,6 +222,11 @@ const recipes = [
 // Hide recipe card until show recipe button is clicked
 const recipeCard = document.getElementById("recipeCard");
 recipeCard.style.display = "none";
+/**Set default radio button category */
+function setDefaultRadioBtn() {
+    document.getElementById("meal").checked = true;
+}
+window.onload = setDefaultRadioBtn;
 // Declare variable to store selected catagory
 let selectedCategory = "meal";
 /** Extract value from selected radio button*/
@@ -280,41 +285,41 @@ function getRandomRecipe() {
     //Add instructions list
     addListEL("instructions", randomRecipes.instructions);
 }
-    /**Add button to recipe card */
-    function addIngredientsBtn() {
-        const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
-        recipeIngredientsBtn.textContent = "Show Ingredients";
-        recipeIngredientsBtn.addEventListener("click", showingredientsBtn);
+/**Add button to recipe card */
+function addIngredientsBtn() {
+    const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
+    recipeIngredientsBtn.textContent = "Show Ingredients";
+    recipeIngredientsBtn.addEventListener("click", showingredientsBtn);
+}
+/**Add visibility effect to show ingredients button */
+function showingredientsBtn() {
+    console.log("clicked");
+    const ingredientsUl = document.getElementById("ingredients");
+    const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
+    if (ingredientsUl.style.display === "none") {
+        ingredientsUl.style.display = "block";
+        recipeIngredientsBtn.textContent = "Hide Ingredients";
+    } else {
+        ingredientsUl.style.display = "none";
+        recipeIngredientsBtn.textContent = "Show  Ingredients";
     }
-    /**Add visibility effect to show ingredients button */
-    function showingredientsBtn() {
-        console.log("clicked");
-        const ingredientsUl = document.getElementById("ingredients");
-        const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
-        if (ingredientsUl.style.display === "none") {
-            ingredientsUl.style.display = "block";
-            recipeIngredientsBtn.textContent = "Hide Ingredients";
-        } else {
-            ingredientsUl.style.display = "none";
-            recipeIngredientsBtn.textContent = "Show  Ingredients";
-        }
+}
+/**Add button to recipe card */
+function addInstructionsBtn() {
+    const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
+    recipeInstructionsBtn.textContent = "Show Instructions";
+    recipeInstructionsBtn.addEventListener("click", showInstructionsBtn);
+}
+/**Add visibility effect to show instructions button */
+function showInstructionsBtn() {
+    console.log("clicked");
+    const instructionsOl = document.getElementById("instructions");
+    const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
+    if (instructionsOl.style.display === "none") {
+        instructionsOl.style.display = "block";
+        recipeInstructionsBtn.textContent = "Hide Instructions";
+    } else {
+        instructionsOl.style.display = "none";
+        recipeInstructionsBtn.textContent = "Show  Instructions";
     }
-    /**Add button to recipe card */
-    function addInstructionsBtn() {
-        const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
-        recipeInstructionsBtn.textContent = "Show Instructions";
-        recipeInstructionsBtn.addEventListener("click", showInstructionsBtn);
-    }
-    /**Add visibility effect to show instructions button */
-    function showInstructionsBtn() {
-        console.log("clicked");
-        const instructionsOl = document.getElementById("instructions");
-        const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
-        if (instructionsOl.style.display === "none") {
-            instructionsOl.style.display = "block";
-            recipeInstructionsBtn.textContent = "Hide Instructions";
-        } else {
-            instructionsOl.style.display = "none";
-            recipeInstructionsBtn.textContent = "Show  Instructions";
-        }
-    }
+}
