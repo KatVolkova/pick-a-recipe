@@ -102,10 +102,6 @@ Each recipe card has a corresponding image. There are two sets of images: one fo
 
 The "Show Ingredients" button displays a list of ingredients for a particular recipe. The "Show Instructions" button displays a list of instructions for a particular recipe. A user can choose to either click one of the buttons to display ingredients or instructions only or click both buttons and see the lists either side by side in desktop version or one underneath the other for mobile screens.
 
-![Ingredients list](/assets/images/readme/features/ingredients-list.webp)
-
-![Instructions list](/assets/images/readme/features/instructions-list.webp)
-
 ![Ingredients list](/assets/images/readme/features/recipe-card-lists-desktop.webp)
 
 ![Instructions list](/assets/images/readme/features/recipe-card-lists-mobile.webp)
