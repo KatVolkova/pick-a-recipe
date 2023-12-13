@@ -235,6 +235,18 @@ const categoryInputs = document
         input.addEventListener("change", getCategoryValue);
     });
 console.log(selectedCategory);
+// **Add list element to recipe card */
+function addListEL(listId, lists) {
+    const listEl = document.getElementById(listId);
+    listEl.style.display = "none";
+    listEl.textContent = "";
+    for (const list of lists) {
+        const recipeListEl = document.createElement("li");
+        recipeListEl.classList.add(`${listId}List`);
+        recipeListEl.textContent = list;
+        listEl.append(recipeListEl);
+    }
+}
 
 /**Generate random recipe and display recipe details */
 function getRandomRecipe() {
@@ -262,67 +274,47 @@ function getRandomRecipe() {
     //Add ingredients button
     addIngredientsBtn();
     //  Add ingredients list
-    const ingredientsUl = document.getElementById("ingredients");
-    ingredientsUl.style.display = "none";
-    ingredientsUl.textContent = "";
-    const ingredients = randomRecipes.ingredients;
-    for (const ingredient of ingredients) {
-        console.log(ingredient);
-        const recipeList = document.createElement("li");
-        recipeList.classList.add("recipeList");
-        recipeList.textContent = ingredient;
-        ingredientsUl.append(recipeList);
-    }
+    addListEL("ingredients", randomRecipes.ingredients);
     //Add instructions button
     addInstructionsBtn();
     //Add instructions list
-    const instructionsOl = document.getElementById("instructions");
-    instructionsOl.style.display = "none";
-    instructionsOl.textContent = "";
-    const instructions = randomRecipes.instructions;
-    for (const instruction of instructions) {
-        console.log(instruction);
-        const instructionList = document.createElement("li");
-        instructionList.classList.add("instructionList");
-        instructionList.textContent = instruction;
-        instructionsOl.append(instructionList);
+    addListEL("instructions", randomRecipes.instructions);
+}
+    /**Add button to recipe card */
+    function addIngredientsBtn() {
+        const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
+        recipeIngredientsBtn.textContent = "Show Ingredients";
+        recipeIngredientsBtn.addEventListener("click", showingredientsBtn);
     }
-}
-/**Add button to recipe card */
-function addIngredientsBtn() {
-    const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
-    recipeIngredientsBtn.textContent = "Show Ingredients";
-    recipeIngredientsBtn.addEventListener("click", showingredientsBtn);
-}
-/**Add visibility effect to show ingredients button */
-function showingredientsBtn() {
-    console.log("clicked");
-    const ingredientsUl = document.getElementById("ingredients");
-    const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
-    if (ingredientsUl.style.display === "none") {
-        ingredientsUl.style.display = "block";
-        recipeIngredientsBtn.textContent = "Hide Ingredients";
-    } else {
-        ingredientsUl.style.display = "none";
-        recipeIngredientsBtn.textContent = "Show  Ingredients";
+    /**Add visibility effect to show ingredients button */
+    function showingredientsBtn() {
+        console.log("clicked");
+        const ingredientsUl = document.getElementById("ingredients");
+        const recipeIngredientsBtn = document.querySelector("#showIngredientsBtn");
+        if (ingredientsUl.style.display === "none") {
+            ingredientsUl.style.display = "block";
+            recipeIngredientsBtn.textContent = "Hide Ingredients";
+        } else {
+            ingredientsUl.style.display = "none";
+            recipeIngredientsBtn.textContent = "Show  Ingredients";
+        }
     }
-}
-/**Add button to recipe card */
-function addInstructionsBtn() {
-    const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
-    recipeInstructionsBtn.textContent = "Show Instructions";
-    recipeInstructionsBtn.addEventListener("click", showInstructionsBtn);
-}
-/**Add visibility effect to show instructions button */
-function showInstructionsBtn() {
-    console.log("clicked");
-    const instructionsOl = document.getElementById("instructions");
-    const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
-    if (instructionsOl.style.display === "none") {
-        instructionsOl.style.display = "block";
-        recipeInstructionsBtn.textContent = "Hide Instructions";
-    } else {
-        instructionsOl.style.display = "none";
-        recipeInstructionsBtn.textContent = "Show  Instructions";
+    /**Add button to recipe card */
+    function addInstructionsBtn() {
+        const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
+        recipeInstructionsBtn.textContent = "Show Instructions";
+        recipeInstructionsBtn.addEventListener("click", showInstructionsBtn);
     }
-}
+    /**Add visibility effect to show instructions button */
+    function showInstructionsBtn() {
+        console.log("clicked");
+        const instructionsOl = document.getElementById("instructions");
+        const recipeInstructionsBtn = document.querySelector("#showInstructionsBtn");
+        if (instructionsOl.style.display === "none") {
+            instructionsOl.style.display = "block";
+            recipeInstructionsBtn.textContent = "Hide Instructions";
+        } else {
+            instructionsOl.style.display = "none";
+            recipeInstructionsBtn.textContent = "Show  Instructions";
+        }
+    }
