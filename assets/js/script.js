@@ -234,8 +234,7 @@ function getCategoryValue(event) {
     selectedCategory = event.target.id;
 }
 // Iterate through selected inputs and add eventListener
-const categoryInputs = document
-    .querySelectorAll("input[name='category']")
+document.querySelectorAll("input[name='category']")
     .forEach((input) => {
         input.addEventListener("change", getCategoryValue);
     });
