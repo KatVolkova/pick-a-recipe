@@ -37,6 +37,10 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
 
 ### General
 
+The Pick a Recipe website has been created with a purpose of providing a quick solution for those who either not sure what to cook , or who wants to try something new. It's a simplified version of a random recipe generator: there are 10 recipes in total (five for meals and 5 for desserts). The recipes selected are simple and quick to cook. For each recipe there is a list of ingredients to be used and a clear and simple list of instructions on how the food should be cooked.
+
+The web-site has a user-friendly interface that allows for an intuitive browsing experience.
+
 The Pick a Recipe website consists of one page and includes the following features:
 
 - Favicon in the browser tab:
