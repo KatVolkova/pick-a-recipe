@@ -222,15 +222,16 @@ Validator testing has been carried out using the following:
 
 ### Manual testing
 
-| Feature | Expected Outcome | Testing Peformed | Result |
+| Feature | Expected Outcome | Testing Peformed | Result: Pass/Fail|
 | --- | --- | --- |  --- |
-| Radio Buttons |  | | |
-| Show Recipe Button | |  | |
-| Recipe Card |  |  | |
-| Images | | | |
-| Show Ingredients Button | |  | |
-| Show Instructions Button |  |  | |
-| Social Networks Links | | | |
+| Show Recipe Button | When show recipe button is clicked, the random recipe card should be displayed |Clicked button |Pass |
+| Radio Buttons - Meal category|When a radio button selected and "Show recipe" button  is clicked, one of the five random meal recipes should be displayed  |Meal radio button is selected, button is clicked | Pass|
+| Radio Buttons - Dessert category|When a radio button selected and "Show recipe" button  is clicked, one of the five random dessert recipes should be displayed  |Dessert radio button is selected, button is clicked |Pass |
+| Recipe Card |When "Show recipe" button is clicked, a recipe card should be rendered displaying: recipe title, recipe image, number of servings, "Show ingredients" and "Show instructions" buttons  |Clicked button  |Pass |
+| Images |When "Show recipe" button is clicked, one of 10 images (five meal recipe images, five dessert recipe images) are expected to be rendered|Clicked button |Pass|
+| Show Ingredients Button |When button is clicked a relevant list of ingredients should be displayed and the button name should change to "Hide Ingredients"|Clicked button  |Pass |
+| Show Instructions Button |When button is clicked a relevant list of instructions should be displayed and the button name should change to "Hide Instructions"|Clicked button  |Pass|
+| Social Networks Links |Each link should open in a separate tab when clicked|Select a link |Pass |
 
 ### Solved Bugs
 
