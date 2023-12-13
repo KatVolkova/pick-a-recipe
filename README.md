@@ -208,6 +208,13 @@ To Deploy the site using GitHub Pages:
 
 ### Automated testing
 
+Validator testing has been carried out using the following:
+
+- HTML file does not contain either errors or warnings according to the official [W3C validator](https://validator.w3.org)
+- CSS file does not contain either errors or warnings according to the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+- [jshint](https://jshint.com/) has been used to validate the JavaScript.
+- Lighthouse has been used within the Chrome Developer Tools to test the performance, accessibility and SEO of the website.
+
 ### Manual testing
 
 | Feature | Expected Outcome | Testing Peformed | Result |
