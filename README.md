@@ -33,6 +33,7 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
     - [Manual testing](#manual-testing)
     - [Additional Testing](#additional-testing)
     - [Solved Bugs](#solved-bugs)
+    - [Known Bugs](#known-bugs)
   - [Credits](#credits)
 
 ## Features
@@ -268,6 +269,11 @@ JSHint shows that there is one unused variable - getRandomRecipe - it is used in
 - JSHint - ES6 warning has been fixed by adding jshint esversion: 6 at the beginning of script.js file.
 - JSHint - unused categoryInputs variable has been removed.
 - Firefox console warning: Layout was forced before the page was fully loaded. To solve this, defer attribute has been added to the script element in HTML and DOMContentLoaded event has been added to script.js file.
+
+### Known Bugs
+
+- Buttons changing colour when clicked - on mobile phones and in cases when touchscreen option is used, there is a delay for the button to return to it's original colour after being selected
+- Firefox console warning: unknown property -moz-osx-font-smoothing. THis warning is triggered by using font awesome icons. This warning does not affect the visual appearance or functionality of web-site.
 
 ## Credits
 
