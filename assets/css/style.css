@@ -189,6 +189,8 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
+/* Media queries */
 /* Small mobile phones (320px and up) */
 @media screen and (min-width: 320px) {
 
@@ -211,6 +213,7 @@ footer {
         width: 17rem;
     }
 }
+
 /* Media query: large or landscape phones (558px and up) */
 @media screen and (min-width: 558px) {
 
@@ -226,5 +229,14 @@ footer {
         display: flex;
         justify-content: space-around;
     }
-}
 
+    /* recipe Image */
+    #recipeImage {
+        width: 28rem;
+    }
+
+    /* Instructions list */
+    .instructionsList {
+        margin-left: 6rem;
+    }
+}
