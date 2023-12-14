@@ -165,10 +165,6 @@ Google fonts have been used for this website.
   
   ![Vollkorn](/assets/images/readme/typography/vollkorn-googlefonts.webp)
   
-- Puritan font style used for all headings apart from the main h1 heading.
-  
-  ![Puritan](/assets/images/readme/typography/puritan-googlefonts.webp)
-
 ### Images
 
 Pictures have been taken from [BBC Goog Food](https://www.bbcgoodfood.com/):
