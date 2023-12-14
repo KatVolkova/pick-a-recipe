@@ -39,7 +39,7 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
 
 ### General
 
-The Pick a Recipe website has been created with a purpose of providing a quick solution for those who either not sure what to cook , or who wants to try something new. It's a simplified version of a random recipe generator: there are 10 recipes in total (five for meals and 5 for desserts). The recipes selected are simple and quick to cook. For each recipe there is a list of ingredients to be used and a clear and simple list of instructions on how the food should be cooked.
+The Pick a Recipe website has been created with the purpose of providing a quick solution for those who are either not sure what to cook, or who want to try something new. It's a simplified version of a random recipe generator: there are ten recipes in total (five for meals and 5 for desserts). The recipes selected are simple and quick to cook. For each recipe, there is a list of ingredients to be used and a clear and simple list of instructions on how the food should be cooked.
 
 The web-site has a user-friendly interface that allows for an intuitive browsing experience.
 
@@ -65,13 +65,13 @@ When button is clicked it shows the following features:
   
   ---
 
-The website is fully responsive: the content can be viewed on a variety of screen sizes such as desktops, laptops, tablets and movile phones.
+The website is fully responsive: the content can be viewed on a variety of screen sizes such as desktops, laptops, tablets and mobile phones.
 
 ### Header
 
 ![Header](/assets/images/readme/features/header.webp)
 
-Header includes the project name and logo.
+The header includes the project name and logo.
 
 ### Main Content
 
@@ -79,13 +79,13 @@ Header includes the project name and logo.
 
 ![Radio Buttons Input](/assets/images/readme/features/radio-buttons.webp)
 
-Two radio buttons represent two categories that a user can select: "Meal" and "Dessert". Depending on the option users will be presented with either a range of dinner recipes or dessert recipes.
+Two radio buttons represent two categories that a user can select: "Meal" and "Dessert". Depending on the option, users will be presented with either a range of dinner recipes or dessert recipes.
 
 #### Show recipe button
 
 ![Show recipe button](/assets/images/readme/features/show-recipe-button.webp)
 
-A "Show Recipe" button is used to generate a random recipe either from meal or from dessert category.
+A "Show Recipe" button is used to generate a random recipe either from a meal or from dessert category.
 
 #### Recipe Card
 
@@ -101,7 +101,7 @@ When a "Show recipe" button is clicked a recipe card comes up. The recipe card i
 
 ![Recipe Image desserts](/assets/images/readme/features/recipe-images-desserts.webp)
 
-Each recipe card has a corresponding image. There are two sets of images: one for meals option and the other is for desserts. There are ten recipes in total, five for each category.
+Each recipe card has a corresponding image. There are two sets of images: one for meal options and the other for desserts. There are ten recipes in total, five for each category.
 
 #### Show Ingredients and Instructions buttons
 
@@ -109,13 +109,13 @@ Each recipe card has a corresponding image. There are two sets of images: one fo
 
 ![Show ingredients and instructions buttons mobile](/assets/images/readme/features/recipe-card-buttons-mobile.webp)
 
-The "Show Ingredients" button displays a list of ingredients for a particular recipe. The "Show Instructions" button displays a list of instructions for a particular recipe. A user can choose to either click one of the buttons to display ingredients or instructions only or click both buttons and see the lists either side by side in desktop version or one underneath the other for mobile screens.
+The "Show Ingredients" button displays a list of ingredients for a particular recipe. The "Show Instructions" button displays a list of instructions for a particular recipe. A user can choose to either click one of the buttons to display ingredients or instructions only or click both buttons and see the lists either side by side in the desktop version or one underneath the other for mobile screens.
 
 ![Ingredients list](/assets/images/readme/features/recipe-card-lists-desktop.webp)
 
 ![Instructions list](/assets/images/readme/features/recipe-card-lists-mobile.webp)
 
-When the list is displayd the text on the button changes to "Hide Ingredients"/"Hide instructions".
+When the list is displayd, the text on the button changes to "Hide Ingredients"/"Hide instructions".
 
 ![Hide instructions and ingredients buttons](/assets/images/readme/features/hide-ingredients-instructions-buttons.webp)
 
@@ -128,8 +128,8 @@ The footer section features:
 
 #### Future Implementations
 
-1. As the number of recipes generated is limited I would add API to increase and adjust the recipes array to increase the variety of options
-2. I would add a number of servings input so a user could specify the number of servings and the ingredients list would automatically be updated to reflect the required amount of ingredients
+1. As the number of recipes generated is limited, I would add API to increase and adjust the recipes array to increase the variety of options
+2. I would add a number of servings input so a user could specify the number of servings, and the ingredients list would automatically be updated to reflect the required amount of ingredients
 
 ## Design
 
@@ -167,7 +167,7 @@ Google fonts have been used for this website.
   
 ### Images
 
-Pictures have been taken from [BBC Goog Food](https://www.bbcgoodfood.com/):
+Pictures have been taken from [BBC Good Food](https://www.bbcgoodfood.com/):
 
 - [Mango pudding](https://www.bbcgoodfood.com/recipes/quick-mango-pudding)
 - [Strawberry mousse](https://www.bbcgoodfood.com/recipes/strawberry-marshmallow-mousse)
@@ -272,9 +272,9 @@ Validator testing has been carried out using the following:
 - How to get radio button value [Stackoverflow](https://stackoverflow.com/questions/8838648/onchange-event-handler-for-radio-button-input-type-radio-doesnt-work-as-one
 )
 - How to use the filter method to create separate arrays for meal and dessert categories[JavaScript Filter() Method Explained with 5 exercises 2022](https://www.youtube.com/watch?v=7uFHki-EK6g)
-- Recipes have been taken from [BBC Goog Food](https://www.bbcgoodfood.com/)
+- Recipes have been taken from [BBC Good Food](https://www.bbcgoodfood.com/)
 - Templates for a Logo and favicon have been taken and customised using [Canva](https://www.canva.com/)
-- Pictures have been from (detailed breakdown in Images section) [BBC Goog Food](https://www.bbcgoodfood.com/)
+- Pictures have been from (detailed breakdown in Images section) [BBC Good Food](https://www.bbcgoodfood.com/)
 - Fonts have been taken from [Google Fonts](https://fonts.google.com/)
 - Icons for the social networks links have been taken from [Font Awesome](https://fontawesome.com/)
 - Pictures have been re-sized and converted into webp format using [Pixlr](https://pixlr.com/)
