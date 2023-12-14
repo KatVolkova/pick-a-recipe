@@ -272,6 +272,7 @@ function getRandomRecipe() {
     // Add recipe image to recipe card
     const recipeImage = document.getElementById("recipeImage");
     recipeImage.src = randomRecipes.imgUrl;
+    recipeImage.alt = `Picture of ${randomRecipes.recipeName}`;
     //Add ingredients button
     addIngredientsBtn();
     //  Add ingredients list
