@@ -221,6 +221,17 @@ To Deploy the site using GitHub Pages:
 
 ## Testing
 
+Testing has been performed on the following devices:
+
+- Laptop: Lenovo Yoga C940 14''
+- Mobile Devices: Samsung S8/S10
+  
+The website has been tested using the following browsers:
+
+- Google Chrome: no warnings in console
+- Microsoft Edge: no warnings in console
+- Firefox: 1 warning, the description is given in Known Bugs section
+
 ### Automated testing
 
 Validator testing has been carried out using the following:
