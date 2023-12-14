@@ -265,8 +265,9 @@ JSHint shows that there is one unused variable - getRandomRecipe - it is used in
 - HTML - Trailing slashes have been removed from meta elements.
 - HTML - Text added to missing h3 heading.
 - HTML - As the recipe card content is added dynamically src and alt attributes have not been initially created, which was shown as an error. To fix this error, src and alt attributes have been added to HTML structure.
-- JSHint - ES6 warning has been fixed by adding jshint esversion: 6 at the beginning of js.
+- JSHint - ES6 warning has been fixed by adding jshint esversion: 6 at the beginning of script.js file.
 - JSHint - unused categoryInputs variable has been removed.
+- Firefox console warning: Layout was forced before the page was fully loaded. To solve this, defer attribute has been added to the script element in HTML and DOMContentLoaded event has been added to script.js file.
 
 ## Credits
 
