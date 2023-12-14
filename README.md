@@ -196,6 +196,7 @@ HTML, CSS, JavaScript
 - [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features and solve issues with responsiveness and styling.
 - [Canva.com](https://canva.com/) To create and customise favicon and logo
 - [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+- [Responsive Designer Checker](<https://responsivedesignchecker.com/>) To check web-site responsiveness.
 - [Pixlr](https://pixlr.com/) To re-size and convert pictures into webp format
 - [Grammarly](https://app.grammarly.com/ ) - has been used for spell-checking
 - [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
