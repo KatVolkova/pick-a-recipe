@@ -226,7 +226,9 @@ recipeCard.style.display = "none";
 function setDefaultRadioBtn() {
     document.getElementById("meal").checked = true;
 }
-window.onload = setDefaultRadioBtn;
+document.addEventListener("DOMContentLoaded", () => {
+    setDefaultRadioBtn();
+});
 // Declare variable to store selected catagory
 let selectedCategory = "meal";
 /** Extract value from selected radio button*/
