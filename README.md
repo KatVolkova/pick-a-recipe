@@ -286,7 +286,12 @@ Lighthouse - mobile phone results:
 ### Known Bugs
 
 - Buttons changing colour when clicked - on mobile phones and in cases when touchscreen option is used, there is a delay for the button to return to it's original colour after being selected
+
+![Issue buttons colour](/assets/images/readme/testing/known-bugs-button.webp)
+
 - Firefox console warning: unknown property -moz-osx-font-smoothing. THis warning is triggered by using font awesome icons. This warning does not affect the visual appearance or functionality of web-site.
+
+![Firefox Console Warning](/assets/images/readme/testing/firefox-console-warning.webp)
 
 ## Credits
 
