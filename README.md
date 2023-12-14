@@ -227,11 +227,24 @@ Validator testing has been carried out using the following:
 
 - HTML file does not contain either errors or warnings according to the official [W3C validator](https://validator.w3.org)
 - CSS file does not contain either errors or warnings according to the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
+![CSS validation results](/assets/images/readme/testing/w3c-css-validator.webp)
+
 - [jshint](https://jshint.com/) has been used to validate the JavaScript.
+
+![JSHint results](/assets/images/readme/testing/jshint-metrics.webp)
 
 JSHint shows that there is one unused variable - getRandomRecipe - it is used in HTML via onclick attribute.
 
 - Lighthouse has been used within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+Lighthouse - desktop results:
+
+![Lighthouse Desktop](/assets/images/readme/testing/lighthouse-desktop.webp)
+
+Lighthouse - mobile phone results:
+
+![Lighthouse Mobile](/assets/images/readme/testing/lighthouse-mobile.webp)
 
 ### Manual testing
 
