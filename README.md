@@ -19,7 +19,7 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
     - [Footer](#footer)
       - [Future Implementations](#future-implementations)
   - [Design](#design)
-  - [Wireframes](#wireframes)
+    - [Wireframes](#wireframes)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Images](#images)
@@ -132,7 +132,7 @@ The footer section features:
 
 ## Design
 
-## Wireframes
+### Wireframes
 
 Balsamiq software has been used to create wireframes for both desktop and mobile phones.
 ![Desktop Design](/assets/images/readme/wireframes/wireframes-desktop.webp)
