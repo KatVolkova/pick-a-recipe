@@ -27,13 +27,14 @@ Visit the deployed site: [Pick a Recipe](https://github.com/KatVolkova/pick-a-re
     - [Languages Used](#languages-used)
     - [Programs/Applications/Software Used](#programsapplicationssoftware-used)
   - [Deployment](#deployment)
-      - [How to Fork](#how-to-fork)
+    - [How to Fork](#how-to-fork)
   - [Testing](#testing)
     - [Automated testing](#automated-testing)
     - [Manual testing](#manual-testing)
     - [Additional Testing](#additional-testing)
     - [Solved Bugs](#solved-bugs)
   - [Credits](#credits)
+
 ## Features
 
 ### General
@@ -150,7 +151,7 @@ Colours used:
 
 - recipe card colour `#F9F9F6`
   
-The colours above create the right contrast and contribute to the site's readability. 
+The colours above create the right contrast and contribute to the site's readability.
 
 ### Typography
 
@@ -215,7 +216,7 @@ To Deploy the site using GitHub Pages:
 5. From the source dropdown, select the main branch and press save.
 6. The site has now been deployed. Please note that this process may take a few minutes before the site goes live.
 
-#### How to Fork
+### How to Fork
 
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project, [KatVolkova/Pick-a -recipe](https://github.com/KatVolkova/pick-a-recipe).
