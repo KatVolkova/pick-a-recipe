@@ -263,6 +263,12 @@ Validator testing has been carried out using the following:
 
 ### Solved Bugs
 
+- HTML - Trailing slashes have been removed from meta elements.
+- HTML - Text added to missing h3 heading.
+- HTML - As the recipe card content is added dynamically src and alt attributes have not been initially created, which was shown as an error. To fix this error, src and alt attributes have been added to HTML structure.
+- JSHint - ES6 warning has been fixed by adding jshint esversion: 6 at the beginning of js.
+- JSHint - unused categoryInputs variable has been removed.
+
 ## Credits
 
 - How to iterate through an array and create an unordered/ordered  list [Stackoverflow](https://stackoverflow.com/questions/46141450/create-li-from-loeop-through-array-and-display-to-html-as-a-list
