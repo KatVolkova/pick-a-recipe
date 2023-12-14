@@ -189,7 +189,28 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+/* Small mobile phones (320px and up) */
+@media screen and (min-width: 320px) {
 
+    /* Header */
+    #logo {
+        margin-left: 0.2rem;
+    }
+
+    h1 {
+        margin: 0.2rem;
+    }
+
+    /* Recipe card image */
+    #recipeImage {
+        width: 17rem;
+    }
+
+    /* Recipe card button */
+    #recipeCard button {
+        width: 17rem;
+    }
+}
 /* Media query: large or landscape phones (558px and up) */
 @media screen and (min-width: 558px) {
 
@@ -206,3 +227,4 @@ footer {
         justify-content: space-around;
     }
 }
+
