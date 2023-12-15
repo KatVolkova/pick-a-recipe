@@ -258,24 +258,4 @@ footer {
     h1 {
         font-size: 2.7rem;
     }
-
-    /* Main */
-    #subheading {
-        font-size: 3rem;
-    }
-
-    /* Radio buttons */
-    #categorySelection {
-        font-size: 1.8rem;
-    }
-
-    /* Recipe card title */
-    #recipeCard h3 {
-        font-size: 1.8rem;
-    }
-
-    /* Servings paragraph */
-    #servingsParagraph {
-        font-size: 1.5rem;
-    }
 }
