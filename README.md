@@ -237,6 +237,9 @@ The website has been tested using the following browsers:
 Validator testing has been carried out using the following:
 
 - HTML file does not contain either errors or warnings according to the official [W3C validator](https://validator.w3.org)
+
+![HTML validation results](/assets/images/readme/testing/w3c-html-validation-result.webp)
+
 - CSS file does not contain either errors or warnings according to the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
 ![CSS validation results](/assets/images/readme/testing/w3c-css-validator.webp)
